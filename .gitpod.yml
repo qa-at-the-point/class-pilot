@@ -1,0 +1,4 @@
+tasks:
+  - before: pip install poetry
+    init: poetry install
+    command: poetry env info
