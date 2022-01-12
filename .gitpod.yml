@@ -1,3 +1,6 @@
+vscode:
+  extensions:
+    - ms-python.python
 tasks:
   - before: pip install poetry
     init: poetry install
