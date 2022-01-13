@@ -1,0 +1,4 @@
+tasks:
+  - before: bundle install
+  - init: jekyll --version
+  - command: pwd
